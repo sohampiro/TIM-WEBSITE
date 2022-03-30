@@ -1,0 +1,68 @@
+body
+{
+    text-align: center;
+    margin: 0;
+    padding-top: 30px;
+}
+#welcome
+{
+    background: linear-gradient(cyan 10%,pink 90%);
+    position: absolute;
+    height:500px;
+    opacity: 0.99;
+    width: 100%;
+    display: table;
+    color: aliceblue;
+    padding-top: 40px;
+    z-index: 7;
+    overflow: hidden;
+}
+#pic
+{
+    border-radius: 50%;
+    border-color:aquamarine;
+    border-style: ridge;
+    border-width: 4px;
+    height: 300px;
+}
+#line
+{
+    height: 6px;
+    margin: auto;
+        width:70px;
+    background-color: black;
+}
+#bio
+{
+    padding-top: 530px;
+    overflow: hidden;
+       padding-left:150px;
+          padding-right:150px;
+    margin-left: 50px;
+        margin-right: 50px;
+} 
+.menu
+{
+    list-style: none;
+    font-family: 'Hurricane', cursive;
+    font-size: 30px;
+    top:10px;
+    right: 30px;
+    position: fixed;
+    z-index: 9;
+}
+.links
+{
+   float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor:pointer;
+}
+.links:hover
+{
+    background-color: crimson;
+}
+html
+{
+    scroll-behavior: smooth;
+}
